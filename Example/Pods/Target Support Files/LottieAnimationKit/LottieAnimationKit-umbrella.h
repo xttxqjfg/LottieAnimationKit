@@ -10,7 +10,7 @@
 #endif
 #endif
 
-#import "LottieAnimationObjcView.h"
+#import "LottieAnimationCustomView.h"
 
 FOUNDATION_EXPORT double LottieAnimationKitVersionNumber;
 FOUNDATION_EXPORT const unsigned char LottieAnimationKitVersionString[];

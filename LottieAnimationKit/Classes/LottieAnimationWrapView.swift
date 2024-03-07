@@ -1,17 +1,19 @@
 //
 //  LottieAnimationWrapView.swift
-//  Pods-LottieAnimationKit_Example
+//  LottieAnimationKit
 //
-//  Created by 易博 on 2024/3/6.
+//  Created by 易博 on 2024/3/7.
 //
 
-import Foundation
-import Lottie
 import UIKit
+import Lottie
 
-@objcMembers class LottieAnimationWrapView: UIView {
+public typealias LottieAnimationCompletionBlock = (_ completed: Bool) -> Void
+
+open class LottieAnimationWrapView: UIView {
     // MARK: - Properties
     private var lottieAnimationView: LottieAnimationView!
+    private var isLoopMode: Bool!
     
     // MARK: - Initializers
     override init(frame: CGRect) {
@@ -19,7 +21,7 @@ import UIKit
         setupAnimationView()
     }
     
-    required init?(coder aDecoder: NSCoder) {
+    required public init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         setupAnimationView()
     }
@@ -27,38 +29,53 @@ import UIKit
     // MARK: - Setup
     private func setupAnimationView() {
         lottieAnimationView = LottieAnimationView()
-        lottieAnimationView.contentMode = .scaleAspectFit
+        isLoopMode = false
         addSubview(lottieAnimationView)
     }
     
     // MARK: - Layout
-    override func layoutSubviews() {
+    open override func layoutSubviews() {
         super.layoutSubviews()
         lottieAnimationView.frame = bounds
     }
     
-    func loadAnimationWithFilePath(animationPath: String) {
+    @objc public func loadAnimationWithFilePath(animationPath: String) {
         let animation = LottieAnimation.filepath(animationPath)
         lottieAnimationView.animation = animation
     }
     
     // 播放动画
-    func play() {
-        lottieAnimationView.play()
+    @objc public func play(completionBlock: LottieAnimationCompletionBlock? = nil) {
+        lottieAnimationView.play { completed in
+            if((completionBlock) != nil) {
+                completionBlock!(completed)
+            }
+        }
+    }
+    
+    // 播放指定范围帧的动画
+    @objc public func play(fromFrame: CGFloat, toFrame: CGFloat, completionBlock: LottieAnimationCompletionBlock? = nil) {
+        lottieAnimationView.play(fromFrame: fromFrame, toFrame: toFrame, loopMode: isLoopMode ? .loop : .playOnce) { completed in
+            if((completionBlock) != nil) {
+                completionBlock!(completed)
+            }
+        }
     }
     
     // 停止动画
-    func stop() {
+    @objc public func stop() {
         lottieAnimationView.stop()
     }
     
     // 暂停动画
-    func pause() {
+    @objc public func pause() {
         lottieAnimationView.pause()
     }
     
-    // 设置动画循环播放次数
-    func setLoopMode(_ loopMode: LottieLoopMode) {
-        lottieAnimationView.loopMode = loopMode
+    // 设置动画循环播放模式
+    @objc public func updateLoopMode(isLoop: Bool) {
+        isLoopMode = isLoop
+        lottieAnimationView.loopMode = isLoop ? .loop : .playOnce
     }
 }
+

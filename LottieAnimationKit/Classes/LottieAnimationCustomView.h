@@ -1,5 +1,5 @@
 //
-//  LottieAnimationObjcView.h
+//  LottieAnimationCustomView.h
 //  LottieAnimationKit
 //
 //  Created by 易博 on 2024/3/7.
@@ -9,7 +9,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface LottieAnimationObjcView : UIView
+@interface LottieAnimationCustomView : UIView
 
 @end
 

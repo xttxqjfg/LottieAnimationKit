@@ -7,11 +7,11 @@
 //
 
 #import "XOLViewController.h"
-#import "LottieAnimationObjcView.h"
+#import "LottieAnimationKit/LottieAnimationCustomView.h"
 
 @interface XOLViewController ()
 
-@property (nonatomic,strong) LottieAnimationObjcView *lottieView;
+@property (nonatomic,strong) LottieAnimationCustomView *lottieView;
 
 @end
 
@@ -21,6 +21,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
 }
 
 - (void)didReceiveMemoryWarning

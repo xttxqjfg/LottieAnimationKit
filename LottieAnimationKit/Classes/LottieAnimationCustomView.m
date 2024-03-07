@@ -1,20 +1,20 @@
 //
-//  LottieAnimationObjcView.m
+//  LottieAnimationCustomView.m
 //  LottieAnimationKit
 //
 //  Created by 易博 on 2024/3/7.
 //
 
-#import "LottieAnimationObjcView.h"
-#import <LottieAnimationKit/LottieAnimationKit-Swift.h>
+#import "LottieAnimationCustomView.h"
+#import "LottieAnimationKit/LottieAnimationKit-Swift.h"
 
-@interface LottieAnimationObjcView()
+@interface LottieAnimationCustomView()
 
 @property (nonatomic,strong) LottieAnimationWrapView *lottieView;
 
 @end
 
-@implementation LottieAnimationObjcView
+@implementation LottieAnimationCustomView
 
 - (instancetype)initWithFrame:(CGRect)frame
 {

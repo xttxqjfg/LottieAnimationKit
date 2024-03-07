@@ -7,18 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2BB71C5D849B014A1667FC73E7B3BC03 /* LottieAnimationObjcView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD09435A18F0E6C145A3F91BF851AC17 /* LottieAnimationObjcView.m */; };
 		3B97C9E04F0D1C189D55E24DCC3A4D25 /* Pods-LottieAnimationKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 03DCDAE0AD6F36E4398483F7114796AC /* Pods-LottieAnimationKit_Example-dummy.m */; };
-		5B16ED4557D983BE594032409F6B5302 /* LottieAnimationKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BB0675005AB70A0B188C1D8E5B99AC79 /* LottieAnimationKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5D056E5BF42B04685C3C722CC2DEFF7A /* LottieAnimationObjcView.h in Headers */ = {isa = PBXBuildFile; fileRef = D255B1B36897744ABB5F597BFD25D65F /* LottieAnimationObjcView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		528EC9CE2BFE99D7A65E2B284F3899E4 /* LottieAnimationKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E9812CCB0053034B4FA348DECD1C079 /* LottieAnimationKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		64E6F05305FFE5C073EAFB17DA4865A0 /* Pods-LottieAnimationKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DC37567606FE72B1328DFCEF1396868 /* Pods-LottieAnimationKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		81074A9415099FA44029713018CC6137 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		914F6B4824A7A766332C3F8EB8F15929 /* LottieAnimationWrapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6DB5D945C24102A9915F4E7C5C32682 /* LottieAnimationWrapView.swift */; };
+		887B43F6E2C8EE2E0DA18E43E69C8415 /* LottieAnimationCustomView.h in Headers */ = {isa = PBXBuildFile; fileRef = 99614FC2D6A8B22401C616D27EECC955 /* LottieAnimationCustomView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AFF0AAC0D9AA70AE85950DC33A2A711F /* Pods-LottieAnimationKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DBC412D63FCF98CA628929F96240EF9D /* Pods-LottieAnimationKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B078CA50486EAD143159E3C978333C3D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		B3FAA115008954D2544C65FCABD1A4DE /* Pods-LottieAnimationKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 600ECDEA9D9460560BB3EE2C2272CC0B /* Pods-LottieAnimationKit_Tests-dummy.m */; };
 		CBBE0159D57104B3C34C2C6D734D0D9C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		E6E0209CC09A5F986684E287DA6AA9BB /* LottieAnimationKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A475183AA07D52F94A162C810E53561 /* LottieAnimationKit-dummy.m */; };
+		E04544541965AF7C2A20A8C4B0D9C46A /* LottieAnimationWrapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07EC560A45F79DF2625E9503B8FE4DF /* LottieAnimationWrapView.swift */; };
+		E544A19749298C95A3037340BEDB7709 /* LottieAnimationCustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C7EF771B23F46EAC1240E94D09F190F /* LottieAnimationCustomView.m */; };
+		ED82A17AF18D5A352AB4082FF6876F88 /* LottieAnimationKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B0A92200D95536B91F1759902801157 /* LottieAnimationKit-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,40 +39,40 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00298F9D1332F2168681879219C1A955 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		03DCDAE0AD6F36E4398483F7114796AC /* Pods-LottieAnimationKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LottieAnimationKit_Example-dummy.m"; sourceTree = "<group>"; };
 		04F771C784208DCC4D1A21E4660970EF /* Pods-LottieAnimationKit_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LottieAnimationKit_Tests-Info.plist"; sourceTree = "<group>"; };
+		07CE1BBB44625FA8377F29541E498BDD /* LottieAnimationKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LottieAnimationKit-prefix.pch"; sourceTree = "<group>"; };
 		09505F51F283101D19DC28374382A7C4 /* LottieAnimationKit */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LottieAnimationKit; path = LottieAnimationKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BD355E7FE7844C21271EE0C7CC4C15B /* Pods-LottieAnimationKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LottieAnimationKit_Tests.modulemap"; sourceTree = "<group>"; };
 		24A7D8DD82177BFEEA398F82E4FAB245 /* Pods-LottieAnimationKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LottieAnimationKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		2710E617D2E93D22E67BC074CB10D4CA /* LottieAnimationKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LottieAnimationKit.release.xcconfig; sourceTree = "<group>"; };
 		2DC37567606FE72B1328DFCEF1396868 /* Pods-LottieAnimationKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LottieAnimationKit_Example-umbrella.h"; sourceTree = "<group>"; };
 		3B27ED63AD3709683EBC1051B416A95A /* Pods-LottieAnimationKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LottieAnimationKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		3E20B2351C1FDDAA552ADFD090719196 /* LottieAnimationKit-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "LottieAnimationKit-xcframeworks.sh"; sourceTree = "<group>"; };
+		43B6B7B283136B9728FD5EB3FE9F38A7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		488F6D9F6BBB748D2F0B659C26C799F5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		4B8F8F6E5ADA88986FD34452A8E82E3D /* LottieAnimationKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LottieAnimationKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		4C20B7AAEFC9D1BCE92CFF2FDB1441A7 /* Pods-LottieAnimationKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LottieAnimationKit_Example.modulemap"; sourceTree = "<group>"; };
-		5A475183AA07D52F94A162C810E53561 /* LottieAnimationKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LottieAnimationKit-dummy.m"; sourceTree = "<group>"; };
+		4CC88689D91E25B5B54712BA5FEA4359 /* LottieAnimationKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LottieAnimationKit.release.xcconfig; sourceTree = "<group>"; };
+		5C7EF771B23F46EAC1240E94D09F190F /* LottieAnimationCustomView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LottieAnimationCustomView.m; path = LottieAnimationKit/Classes/LottieAnimationCustomView.m; sourceTree = "<group>"; };
 		600ECDEA9D9460560BB3EE2C2272CC0B /* Pods-LottieAnimationKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LottieAnimationKit_Tests-dummy.m"; sourceTree = "<group>"; };
 		664C2F56B5AC19AD003BCB62179BF2E6 /* Pods-LottieAnimationKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LottieAnimationKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		67A4A4824B7696FF5FF214BE1C04C27B /* Pods-LottieAnimationKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LottieAnimationKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		6EE683E4A25303ABCB6BED5568E55970 /* LottieAnimationKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LottieAnimationKit.modulemap; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		95031A3787AF9FA5042A02F20AF686B1 /* LottieAnimationKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LottieAnimationKit-Info.plist"; sourceTree = "<group>"; };
+		7AF831088627C46AFECDACAFF0FD9285 /* Lottie.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = Lottie.xcframework; path = LottieAnimationKit/Assets/Lottie.xcframework; sourceTree = "<group>"; };
+		8BEE6A7B508934EEBA3B4AAD663425C3 /* LottieAnimationKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LottieAnimationKit.debug.xcconfig; sourceTree = "<group>"; };
+		8E9812CCB0053034B4FA348DECD1C079 /* LottieAnimationKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LottieAnimationKit-umbrella.h"; sourceTree = "<group>"; };
+		99614FC2D6A8B22401C616D27EECC955 /* LottieAnimationCustomView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LottieAnimationCustomView.h; path = LottieAnimationKit/Classes/LottieAnimationCustomView.h; sourceTree = "<group>"; };
+		9B0A92200D95536B91F1759902801157 /* LottieAnimationKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LottieAnimationKit-dummy.m"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E9B7635C7B672443E3DEB037BC94C3B /* Pods-LottieAnimationKit_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-LottieAnimationKit_Example"; path = Pods_LottieAnimationKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9EBF565DB4F0928D9C6AEC9B6F7BFDD6 /* Lottie.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = Lottie.xcframework; path = LottieAnimationKit/Assets/Lottie.xcframework; sourceTree = "<group>"; };
-		B6DB5D945C24102A9915F4E7C5C32682 /* LottieAnimationWrapView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LottieAnimationWrapView.swift; path = LottieAnimationKit/Classes/LottieAnimationWrapView.swift; sourceTree = "<group>"; };
-		BB0675005AB70A0B188C1D8E5B99AC79 /* LottieAnimationKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LottieAnimationKit-umbrella.h"; sourceTree = "<group>"; };
-		BB865393AF58BE8965D18F0671A87D50 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		BD82F18BBC47BF22070AD9B248D20705 /* Pods-LottieAnimationKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LottieAnimationKit_Example-Info.plist"; sourceTree = "<group>"; };
-		C47802E97C57314957E508067DF21819 /* LottieAnimationKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LottieAnimationKit.debug.xcconfig; sourceTree = "<group>"; };
-		C7D424E70B7BB36B4BA98E782BE8351E /* LottieAnimationKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LottieAnimationKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C07EC560A45F79DF2625E9503B8FE4DF /* LottieAnimationWrapView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LottieAnimationWrapView.swift; path = LottieAnimationKit/Classes/LottieAnimationWrapView.swift; sourceTree = "<group>"; };
+		C0AAC2CEC08856A34CC25644FEDF98BA /* LottieAnimationKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LottieAnimationKit.modulemap; sourceTree = "<group>"; };
 		CB29A5E1E5C4D3C5F42BBCEB85E8EB4B /* Pods-LottieAnimationKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LottieAnimationKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		CD09435A18F0E6C145A3F91BF851AC17 /* LottieAnimationObjcView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LottieAnimationObjcView.m; path = LottieAnimationKit/Classes/LottieAnimationObjcView.m; sourceTree = "<group>"; };
-		D255B1B36897744ABB5F597BFD25D65F /* LottieAnimationObjcView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LottieAnimationObjcView.h; path = LottieAnimationKit/Classes/LottieAnimationObjcView.h; sourceTree = "<group>"; };
-		DB3924069B063D57CA732926CC300583 /* LottieAnimationKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LottieAnimationKit-prefix.pch"; sourceTree = "<group>"; };
 		DBC412D63FCF98CA628929F96240EF9D /* Pods-LottieAnimationKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LottieAnimationKit_Tests-umbrella.h"; sourceTree = "<group>"; };
 		DE418B1D82BF1D7A5FAA2AC84E31F5ED /* Pods-LottieAnimationKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LottieAnimationKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		DFDE3B959A043F995FF67E61B08634CF /* Pods-LottieAnimationKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LottieAnimationKit_Example.release.xcconfig"; sourceTree = "<group>"; };
+		EA651763E6379AAD875A5EB8E6EF7E86 /* LottieAnimationKit-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "LottieAnimationKit-xcframeworks.sh"; sourceTree = "<group>"; };
+		F49D558E71EAE73D4E01CB86ED5DCE75 /* LottieAnimationKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LottieAnimationKit-Info.plist"; sourceTree = "<group>"; };
 		FC154B43386923AE559E9AEB57417286 /* Pods-LottieAnimationKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LottieAnimationKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		FCEB4161EC229597E73D0A76CDEB43AA /* Pods-LottieAnimationKit_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-LottieAnimationKit_Tests"; path = Pods_LottieAnimationKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD8EAD9B35B37A71EBB3008FD0A329A1 /* Pods-LottieAnimationKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LottieAnimationKit_Example-frameworks.sh"; sourceTree = "<group>"; };
@@ -106,20 +106,60 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		07C49EA1D2AF6D00E51ED1AE520DE54B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C0AAC2CEC08856A34CC25644FEDF98BA /* LottieAnimationKit.modulemap */,
+				9B0A92200D95536B91F1759902801157 /* LottieAnimationKit-dummy.m */,
+				F49D558E71EAE73D4E01CB86ED5DCE75 /* LottieAnimationKit-Info.plist */,
+				07CE1BBB44625FA8377F29541E498BDD /* LottieAnimationKit-prefix.pch */,
+				8E9812CCB0053034B4FA348DECD1C079 /* LottieAnimationKit-umbrella.h */,
+				EA651763E6379AAD875A5EB8E6EF7E86 /* LottieAnimationKit-xcframeworks.sh */,
+				8BEE6A7B508934EEBA3B4AAD663425C3 /* LottieAnimationKit.debug.xcconfig */,
+				4CC88689D91E25B5B54712BA5FEA4359 /* LottieAnimationKit.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/LottieAnimationKit";
+			sourceTree = "<group>";
+		};
+		1C74E525C2727D2570B160188EEB9226 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				488F6D9F6BBB748D2F0B659C26C799F5 /* LICENSE */,
+				4B8F8F6E5ADA88986FD34452A8E82E3D /* LottieAnimationKit.podspec */,
+				43B6B7B283136B9728FD5EB3FE9F38A7 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		28B64EB39B6BBF58BB2E91AC0C990DB2 /* LottieAnimationKit */ = {
+			isa = PBXGroup;
+			children = (
+				99614FC2D6A8B22401C616D27EECC955 /* LottieAnimationCustomView.h */,
+				5C7EF771B23F46EAC1240E94D09F190F /* LottieAnimationCustomView.m */,
+				C07EC560A45F79DF2625E9503B8FE4DF /* LottieAnimationWrapView.swift */,
+				38AFDD0134D3FB4AA07A5D1681F96166 /* Frameworks */,
+				1C74E525C2727D2570B160188EEB9226 /* Pod */,
+				07C49EA1D2AF6D00E51ED1AE520DE54B /* Support Files */,
+			);
+			name = LottieAnimationKit;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		38AFDD0134D3FB4AA07A5D1681F96166 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7AF831088627C46AFECDACAFF0FD9285 /* Lottie.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
 			isa = PBXGroup;
 			children = (
 				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
 			);
 			name = iOS;
-			sourceTree = "<group>";
-		};
-		5EC82E0FDC4CA6F8325CD76BD0CCC7EC /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				9EBF565DB4F0928D9C6AEC9B6F7BFDD6 /* Lottie.xcframework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		7BE56DD30BB4F2C74F67E6957CB5C1EB /* Targets Support Files */ = {
@@ -134,39 +174,9 @@
 		A0704B0B8F5B7A1B7DC6D27F30E1261A /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				BDD00C22A204040A36C164A2E2AEB870 /* LottieAnimationKit */,
+				28B64EB39B6BBF58BB2E91AC0C990DB2 /* LottieAnimationKit */,
 			);
 			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		B21FE64A94DB596F8BF4041657F72896 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				6EE683E4A25303ABCB6BED5568E55970 /* LottieAnimationKit.modulemap */,
-				5A475183AA07D52F94A162C810E53561 /* LottieAnimationKit-dummy.m */,
-				95031A3787AF9FA5042A02F20AF686B1 /* LottieAnimationKit-Info.plist */,
-				DB3924069B063D57CA732926CC300583 /* LottieAnimationKit-prefix.pch */,
-				BB0675005AB70A0B188C1D8E5B99AC79 /* LottieAnimationKit-umbrella.h */,
-				3E20B2351C1FDDAA552ADFD090719196 /* LottieAnimationKit-xcframeworks.sh */,
-				C47802E97C57314957E508067DF21819 /* LottieAnimationKit.debug.xcconfig */,
-				2710E617D2E93D22E67BC074CB10D4CA /* LottieAnimationKit.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/LottieAnimationKit";
-			sourceTree = "<group>";
-		};
-		BDD00C22A204040A36C164A2E2AEB870 /* LottieAnimationKit */ = {
-			isa = PBXGroup;
-			children = (
-				D255B1B36897744ABB5F597BFD25D65F /* LottieAnimationObjcView.h */,
-				CD09435A18F0E6C145A3F91BF851AC17 /* LottieAnimationObjcView.m */,
-				B6DB5D945C24102A9915F4E7C5C32682 /* LottieAnimationWrapView.swift */,
-				5EC82E0FDC4CA6F8325CD76BD0CCC7EC /* Frameworks */,
-				EBBF3194D924A9E4559868056BD69EB7 /* Pod */,
-				B21FE64A94DB596F8BF4041657F72896 /* Support Files */,
-			);
-			name = LottieAnimationKit;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -215,16 +225,6 @@
 			path = "Target Support Files/Pods-LottieAnimationKit_Example";
 			sourceTree = "<group>";
 		};
-		EBBF3194D924A9E4559868056BD69EB7 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				00298F9D1332F2168681879219C1A955 /* LICENSE */,
-				C7D424E70B7BB36B4BA98E782BE8351E /* LottieAnimationKit.podspec */,
-				BB865393AF58BE8965D18F0671A87D50 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		F5EF6664B75902799DFB1DEEDE3BC29D /* Pods-LottieAnimationKit_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -244,15 +244,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		1E859711BF336E567A63E30116174C84 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5B16ED4557D983BE594032409F6B5302 /* LottieAnimationKit-umbrella.h in Headers */,
-				5D056E5BF42B04685C3C722CC2DEFF7A /* LottieAnimationObjcView.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		425D46DBEE45EB7223EB3076CA9D7B11 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -266,6 +257,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				64E6F05305FFE5C073EAFB17DA4865A0 /* Pods-LottieAnimationKit_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5C55E74C14387F019B12364E02787CE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				887B43F6E2C8EE2E0DA18E43E69C8415 /* LottieAnimationCustomView.h in Headers */,
+				528EC9CE2BFE99D7A65E2B284F3899E4 /* LottieAnimationKit-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,9 +295,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D13FDEED4BDB214E8CECCFBE08772863 /* Build configuration list for PBXNativeTarget "LottieAnimationKit" */;
 			buildPhases = (
-				1E859711BF336E567A63E30116174C84 /* Headers */,
+				C5C55E74C14387F019B12364E02787CE /* Headers */,
 				5F7ED17E3CB98F096A7F99DBD47A9FCA /* [CP] Copy XCFrameworks */,
-				F83598A93C9C883566F29A9F5293DB2B /* Sources */,
+				7822EB72B6630FD2ADC344DA18D568BB /* Sources */,
 				F92D7C41A1FD5858DC23FFC71CAF30B8 /* Frameworks */,
 				2D7BAF6994B7D5FF4A77F4FEF2F06368 /* Resources */,
 			);
@@ -412,13 +412,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F83598A93C9C883566F29A9F5293DB2B /* Sources */ = {
+		7822EB72B6630FD2ADC344DA18D568BB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E6E0209CC09A5F986684E287DA6AA9BB /* LottieAnimationKit-dummy.m in Sources */,
-				2BB71C5D849B014A1667FC73E7B3BC03 /* LottieAnimationObjcView.m in Sources */,
-				914F6B4824A7A766332C3F8EB8F15929 /* LottieAnimationWrapView.swift in Sources */,
+				E544A19749298C95A3037340BEDB7709 /* LottieAnimationCustomView.m in Sources */,
+				ED82A17AF18D5A352AB4082FF6876F88 /* LottieAnimationKit-dummy.m in Sources */,
+				E04544541965AF7C2A20A8C4B0D9C46A /* LottieAnimationWrapView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -450,7 +450,7 @@
 /* Begin XCBuildConfiguration section */
 		0B18869CC96AC8F5F995F6C0CE6AA295 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C47802E97C57314957E508067DF21819 /* LottieAnimationKit.debug.xcconfig */;
+			baseConfigurationReference = 8BEE6A7B508934EEBA3B4AAD663425C3 /* LottieAnimationKit.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -576,7 +576,7 @@
 		};
 		D06D350B377E5978FA40A6D71D20CA07 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2710E617D2E93D22E67BC074CB10D4CA /* LottieAnimationKit.release.xcconfig */;
+			baseConfigurationReference = 4CC88689D91E25B5B54712BA5FEA4359 /* LottieAnimationKit.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
