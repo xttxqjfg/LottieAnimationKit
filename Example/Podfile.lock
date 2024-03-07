@@ -1,0 +1,16 @@
+PODS:
+  - LottieAnimationKit (0.1.0)
+
+DEPENDENCIES:
+  - LottieAnimationKit (from `../`)
+
+EXTERNAL SOURCES:
+  LottieAnimationKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LottieAnimationKit: 7ba21f099a410f9593857780a086f71d0ab9b1ed
+
+PODFILE CHECKSUM: a2388b6b4f8c897d76449e515ce186ee153505bd
+
+COCOAPODS: 1.11.3

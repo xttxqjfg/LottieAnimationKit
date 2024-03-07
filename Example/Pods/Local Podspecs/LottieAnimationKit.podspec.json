@@ -1,0 +1,25 @@
+{
+  "name": "LottieAnimationKit",
+  "version": "0.1.0",
+  "summary": "A short description of LottieAnimationKit.",
+  "description": "lottie animation kit",
+  "homepage": "https://github.com/yibo/LottieAnimationKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "yibo": "system112yb@tal.com"
+  },
+  "source": {
+    "git": "https://github.com/yibo/LottieAnimationKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "LottieAnimationKit/Classes/*",
+  "ios": {
+    "vendored_frameworks": "LottieAnimationKit/Assets/*"
+  }
+}
