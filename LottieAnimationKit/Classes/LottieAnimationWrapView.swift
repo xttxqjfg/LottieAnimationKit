@@ -39,43 +39,43 @@ open class LottieAnimationWrapView: UIView {
         lottieAnimationView.frame = bounds
     }
     
-    @objc public func loadAnimationWithFilePath(animationPath: String) {
-        let animation = LottieAnimation.filepath(animationPath)
-        lottieAnimationView.animation = animation
-    }
+//    @objc public func loadAnimationWithFilePath(animationPath: String) {
+//        let animation = LottieAnimation.filepath(animationPath)
+//        lottieAnimationView.animation = animation
+//    }
     
-    // 播放动画
-    @objc public func play(completionBlock: LottieAnimationCompletionBlock? = nil) {
-        lottieAnimationView.play { completed in
-            if((completionBlock) != nil) {
-                completionBlock!(completed)
-            }
-        }
-    }
+//    // 播放动画
+//    @objc public func play(completionBlock: LottieAnimationCompletionBlock? = nil) {
+//        lottieAnimationView.play { completed in
+//            if((completionBlock) != nil) {
+//                completionBlock!(completed)
+//            }
+//        }
+//    }
     
-    // 播放指定范围帧的动画
-    @objc public func play(fromFrame: CGFloat, toFrame: CGFloat, completionBlock: LottieAnimationCompletionBlock? = nil) {
-        lottieAnimationView.play(fromFrame: fromFrame, toFrame: toFrame, loopMode: isLoopMode ? .loop : .playOnce) { completed in
-            if((completionBlock) != nil) {
-                completionBlock!(completed)
-            }
-        }
-    }
-    
-    // 停止动画
-    @objc public func stop() {
-        lottieAnimationView.stop()
-    }
-    
-    // 暂停动画
-    @objc public func pause() {
-        lottieAnimationView.pause()
-    }
-    
-    // 设置动画循环播放模式
-    @objc public func updateLoopMode(isLoop: Bool) {
-        isLoopMode = isLoop
-        lottieAnimationView.loopMode = isLoop ? .loop : .playOnce
-    }
+//    // 播放指定范围帧的动画
+//    @objc public func play(fromFrame: CGFloat, toFrame: CGFloat, completionBlock: LottieAnimationCompletionBlock? = nil) {
+//        lottieAnimationView.play(fromFrame: fromFrame, toFrame: toFrame, loopMode: isLoopMode ? .loop : .playOnce) { completed in
+//            if((completionBlock) != nil) {
+//                completionBlock!(completed)
+//            }
+//        }
+//    }
+//    
+//    // 停止动画
+//    @objc public func stop() {
+//        lottieAnimationView.stop()
+//    }
+//    
+//    // 暂停动画
+//    @objc public func pause() {
+//        lottieAnimationView.pause()
+//    }
+//    
+//    // 设置动画循环播放模式
+//    @objc public func updateLoopMode(isLoop: Bool) {
+//        isLoopMode = isLoop
+//        lottieAnimationView.loopMode = isLoopMode ? .loop : .playOnce
+//    }
 }
 

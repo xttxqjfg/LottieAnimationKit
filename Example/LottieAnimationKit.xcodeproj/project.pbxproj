@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		434A4DFA1A082609AF4B9518 /* Pods_LottieAnimationKit_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECEAF991783AD1E4476B1DB6 /* Pods_LottieAnimationKit_Example.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -20,10 +21,10 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
-		6FC4C3941BC97B3AB4D3B1CD /* Pods_LottieAnimationKit_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1C9CBCDF3CF296CAE54ADE7 /* Pods_LottieAnimationKit_Example.framework */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
-		728EF13F3C917D5AD72DCDB2 /* Pods_LottieAnimationKit_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D02091F5E5EEADD035BF9EF3 /* Pods_LottieAnimationKit_Tests.framework */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		F0EAD3A32B9AAB20009E9B7F /* images in Resources */ = {isa = PBXBuildFile; fileRef = F0EAD3A12B9AAB20009E9B7F /* images */; };
+		F0EAD3A42B9AAB20009E9B7F /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = F0EAD3A22B9AAB20009E9B7F /* data.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,15 +59,14 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		766FB5EFC66AF6EF22D0EE1F /* Pods-LottieAnimationKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LottieAnimationKit_Tests.debug.xcconfig"; path = "Target Support Files/Pods-LottieAnimationKit_Tests/Pods-LottieAnimationKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		7B398ED8EA8A5995AFA03671 /* Pods-LottieAnimationKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LottieAnimationKit_Example.release.xcconfig"; path = "Target Support Files/Pods-LottieAnimationKit_Example/Pods-LottieAnimationKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		B5D784978AD52805AF2D53BE /* LottieAnimationKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LottieAnimationKit.podspec; path = ../LottieAnimationKit.podspec; sourceTree = "<group>"; };
+		B5D784978AD52805AF2D53BE /* LottieAnimationKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LottieAnimationKit.podspec; path = ../LottieAnimationKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		BACF9515D7BA89F73BEF99C4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		BAD04E76652D5327E56E8834 /* Pods-LottieAnimationKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LottieAnimationKit_Tests.release.xcconfig"; path = "Target Support Files/Pods-LottieAnimationKit_Tests/Pods-LottieAnimationKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		C1C9CBCDF3CF296CAE54ADE7 /* Pods_LottieAnimationKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LottieAnimationKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D02091F5E5EEADD035BF9EF3 /* Pods_LottieAnimationKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LottieAnimationKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECEAF991783AD1E4476B1DB6 /* Pods_LottieAnimationKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LottieAnimationKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE573D8974C6E551D86DCBC4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		F0EAD3A12B9AAB20009E9B7F /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		F0EAD3A22B9AAB20009E9B7F /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +77,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				6FC4C3941BC97B3AB4D3B1CD /* Pods_LottieAnimationKit_Example.framework in Frameworks */,
+				434A4DFA1A082609AF4B9518 /* Pods_LottieAnimationKit_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +88,6 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				728EF13F3C917D5AD72DCDB2 /* Pods_LottieAnimationKit_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -123,8 +122,7 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				C1C9CBCDF3CF296CAE54ADE7 /* Pods_LottieAnimationKit_Example.framework */,
-				D02091F5E5EEADD035BF9EF3 /* Pods_LottieAnimationKit_Tests.framework */,
+				ECEAF991783AD1E4476B1DB6 /* Pods_LottieAnimationKit_Example.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -132,6 +130,7 @@
 		6003F593195388D20070C39A /* Example for LottieAnimationKit */ = {
 			isa = PBXGroup;
 			children = (
+				F0EAD3802B9AAB13009E9B7F /* res */,
 				6003F59C195388D20070C39A /* XOLAppDelegate.h */,
 				6003F59D195388D20070C39A /* XOLAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -190,10 +189,17 @@
 			children = (
 				0D6301B3DBADD88E8A52B8D5 /* Pods-LottieAnimationKit_Example.debug.xcconfig */,
 				7B398ED8EA8A5995AFA03671 /* Pods-LottieAnimationKit_Example.release.xcconfig */,
-				766FB5EFC66AF6EF22D0EE1F /* Pods-LottieAnimationKit_Tests.debug.xcconfig */,
-				BAD04E76652D5327E56E8834 /* Pods-LottieAnimationKit_Tests.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		F0EAD3802B9AAB13009E9B7F /* res */ = {
+			isa = PBXGroup;
+			children = (
+				F0EAD3A22B9AAB20009E9B7F /* data.json */,
+				F0EAD3A12B9AAB20009E9B7F /* images */,
+			);
+			path = res;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -222,7 +228,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "LottieAnimationKit_Tests" */;
 			buildPhases = (
-				48419B73F90827F864C3B94A /* [CP] Check Pods Manifest.lock */,
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
@@ -280,6 +285,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0EAD3A32B9AAB20009E9B7F /* images in Resources */,
+				F0EAD3A42B9AAB20009E9B7F /* data.json in Resources */,
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
@@ -298,28 +305,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		48419B73F90827F864C3B94A /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-LottieAnimationKit_Tests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 		51AE48414F0694DF178BDE2C /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -350,6 +335,7 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-LottieAnimationKit_Example/Pods-LottieAnimationKit_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/LottieAnimationKit/LottieAnimationKit.framework",
+				"${BUILT_PRODUCTS_DIR}/lottie-ios/Lottie.framework",
 				"${PODS_XCFRAMEWORKS_BUILD_DIR}/LottieAnimationKit/Lottie.framework/Lottie",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -503,6 +489,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LottieAnimationKit/LottieAnimationKit-Prefix.pch";
 				INFOPLIST_FILE = "LottieAnimationKit/LottieAnimationKit-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -524,6 +511,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LottieAnimationKit/LottieAnimationKit-Prefix.pch";
 				INFOPLIST_FILE = "LottieAnimationKit/LottieAnimationKit-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -538,7 +526,6 @@
 		};
 		6003F5C3195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 766FB5EFC66AF6EF22D0EE1F /* Pods-LottieAnimationKit_Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -563,7 +550,6 @@
 		};
 		6003F5C4195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BAD04E76652D5327E56E8834 /* Pods-LottieAnimationKit_Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (

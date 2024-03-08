@@ -1,16 +1,23 @@
 PODS:
+  - lottie-ios (2.5.3)
   - LottieAnimationKit (0.1.0)
 
 DEPENDENCIES:
+  - lottie-ios (= 2.5.3)
   - LottieAnimationKit (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - lottie-ios
 
 EXTERNAL SOURCES:
   LottieAnimationKit:
     :path: "../"
 
 SPEC CHECKSUMS:
+  lottie-ios: a50d5c0160425cd4b01b852bb9578963e6d92d31
   LottieAnimationKit: 7ba21f099a410f9593857780a086f71d0ab9b1ed
 
-PODFILE CHECKSUM: a2388b6b4f8c897d76449e515ce186ee153505bd
+PODFILE CHECKSUM: d3875fffaa901676085023ac8445e9ef62bebeee
 
 COCOAPODS: 1.11.3
